@@ -8,9 +8,9 @@ name: No Response
 on:
   issue_comment:
     types: [created]
-  schedule:
-    # Schedule at 00:00 every day
-    - cron: '0 0 * * *'
+#  schedule:
+#    # Schedule at 00:00 every day
+#    - cron: '0 0 * * *'
 
 jobs:
   noResponse:
